@@ -1,4 +1,4 @@
-FROM ghcr.io/mirrorshub/docker/alpine:latest
+FROM ghcr.io/linuxcontainers/alpine:latest
 
 RUN apk update && \
     apk upgrade && \
